@@ -20,21 +20,63 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(10, 10, 150, 41))
         self.pushButton.setObjectName("pushButton")
+        self.pushButton.setStyleSheet("""
+        QPushButton {
+            background-color: #20B2AA;
+            color: white;
+            border-radius: 10px;
+        }
+        """)
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_2.setGeometry(QtCore.QRect(200, 800, 150, 60))
         self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_2.setStyleSheet("""
+                QPushButton {
+                    background-color: #20B2AA;
+                    color: white;
+                    border-radius: 10px;
+                }
+                """)
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_3.setGeometry(QtCore.QRect(500, 800, 150, 60))
         self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_3.setStyleSheet("""
+                QPushButton {
+                    background-color: #20B2AA;
+                    color: white;
+                    border-radius: 10px;
+                }
+                """)
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_4.setGeometry(QtCore.QRect(800, 800, 150, 60))
         self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_4.setStyleSheet("""
+                        QPushButton {
+                            background-color: #20B2AA;
+                            color: white;
+                            border-radius: 10px;
+                        }
+                        """)
         self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_5.setGeometry(QtCore.QRect(1100, 800, 150, 60))
         self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_5.setStyleSheet("""
+                        QPushButton {
+                            background-color: #20B2AA;
+                            color: white;
+                            border-radius: 10px;
+                        }
+                        """)
         self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_6.setGeometry(QtCore.QRect(1400, 800, 150, 60))
         self.pushButton_6.setObjectName("pushButton_6")
+        self.pushButton_6.setStyleSheet("""
+                QPushButton {
+                    background-color: #20B2AA;
+                    color: white;
+                    border-radius: 10px;
+                }
+                """)
 
         self.listView = QtWidgets.QListView(self.centralwidget)
         self.listView.setGeometry(QtCore.QRect(10, 60, 150,800))
